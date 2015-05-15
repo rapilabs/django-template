@@ -1,7 +1,8 @@
 My preferred minimal Django setup which includes:
 
- * django-allauth with email address as the username
- * django-rest-framework
+ * [django-allauth](http://www.intenct.nl/projects/django-allauth) with email address as the username
+ * [django-rest-framework](http://www.django-rest-framework.org)
+ * [django-classy-settings](http://django-classy-settings.readthedocs.org) to manage various environment settings
  
 Installation:
 
