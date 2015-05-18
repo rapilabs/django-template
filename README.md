@@ -10,5 +10,7 @@ Installation:
   virtualenv env
   . env/bin/activate
   pip install django
-  django-admin.py startproject <project_name> --template=https://github.com/rapilabs/django-template/archive/master.zip
+  django-admin.py startproject <project_name> . --template=https://github.com/rapilabs/django-template/archive/master.zip
+  pip install -r requirements.txt
+  pip install -r dev-requirements.txt
   ```
